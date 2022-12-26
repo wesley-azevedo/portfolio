@@ -3,7 +3,7 @@ import './testemonials.css'
 
 function testemonials() {
   return (
-    <div>testemunhais</div>
+    <section id='testemonials'>depoimentos</section>
   )
 }
 

@@ -3,7 +3,7 @@ import './footer.css'
 
 function footer() {
   return (
-    <div>rodape</div>
+    <footer id='footer'>footer</footer>
   )
 }
 
