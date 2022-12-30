@@ -36,8 +36,8 @@ export const about = () => {
           <div className="about__content">
             <div>
               <p>Profissional com carreira desenvolvida ao longo de 10 anos em empresas nacionais de grande e médio porte nas áreas de Publicidade, Varejo e Imóveis.</p>
-              <p>Possuo graduação em Gestão de Marketing, MBA em Marketing de Varejo. Atualmente, curso MBA em Projetos de Aplicativos Móveis Multiplataformas e cursos técnicos em Desenvolvimento Full Stack e Data Science.</p>
-              <p> Possuo expertise em liderança e treinamento de equipe, criação e coordenação de ações e estratégias de marketing multicanal, análise e definição de indicadores de desempenho, CRM, solução de problemas, identificação de oportunidades de melhoria, mitigação de riscos e desenvolvimento de ações para otimização e automação de processos.</p>
+              <p>Possuo graduação em Gestão de Marketing, MBA em Marketing de Varejo. Atualmente, curso Desenvolvimento Full Stack e Data Science.</p>
+              <p>Tenho expertise em liderança e treinamento de equipe, criação e coordenação de ações e estratégias de marketing multicanal, análise e definição de indicadores de desempenho, CRM, solução de problemas, identificação de oportunidades de melhoria, mitigação de riscos e desenvolvimento de ações para otimização e automação de processos.</p>
             </div>
             <div>
               <a href="#contacts" className='btn btn-primary'>Vamos Conversar?</a>

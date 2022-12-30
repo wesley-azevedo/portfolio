@@ -64,7 +64,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2,
@@ -132,9 +131,5 @@ a:hover {
 @media screen and (max-width: 600px) {
     .conteiner {
        width: var(--conteiner-width-sm);
-    }
-    
-    section > h2{
-       margin-top: 2rem;
     }
 }

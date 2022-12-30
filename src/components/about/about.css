@@ -64,7 +64,6 @@
     width: 100%;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: justify;
 }
 
 .about__content p {
@@ -89,8 +88,8 @@
     }
 
     .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 30%;
+        margin: 0.1rem auto 2.6rem;
     }
 
     .about__content {
