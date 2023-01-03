@@ -1,5 +1,8 @@
 .testemonials__container {
     width: 50%;
+    height: fit-content;
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
 }
 
 .testemonial__avatar img {
@@ -11,12 +14,15 @@
     border: 0.4rem solid var(--color-primary-variant);
 }
 
+.testemonial__review {
+    margin-bottom: 1rem;
+}
+
 .testemonial {
-    background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
-    border-radius: 2rem;
     user-select: none;
+    margin-bottom: 1.5rem;
 }
 
 .testemonial__review {
@@ -27,9 +33,9 @@
     margin: 0.8rem auto 0;
 }
 
-@media screen and (max-width: 1253px) {
+@media screen and (max-width: 970px) {
     .testemonials__container {
-        width: 70%;
+        width: 75%;
     }
 }
 
