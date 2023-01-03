@@ -20,9 +20,9 @@
 
     --transition: all 400ms ease;
 
-    --conteiner-width-lg: 75%;
-    --conteiner-width-md: 86%;
-    --conteiner-width-sm: 90%;
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
 }
 
 ::-webkit-scrollbar {
@@ -45,7 +45,7 @@ body {
 }
 
 .conteiner {
-    width: var(--conteiner-width-lg);
+    width: var(--container-width-lg);
     margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ a:hover {
 
 @media screen and (max-width: 1024px) {
      .conteiner {
-        width: var(--conteiner-width-md);
+        width: var(--container-width-md);
      }
      
      section {
@@ -130,6 +130,6 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     .conteiner {
-       width: var(--conteiner-width-sm);
+       width: var(--container-width-sm);
     }
 }
