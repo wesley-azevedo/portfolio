@@ -4,9 +4,10 @@ import {BiCheck} from "react-icons/bi";
 
 function services() {
   return (
-    <section className='container' id='services'>
+    <section id='services'>
       <h5>Meus</h5>
       <h2>Serviços</h2>
+      <div className="container">
       <div className='services__container'>
         <article className='services'>
           <div className='service__head'>
@@ -92,6 +93,7 @@ function services() {
             </li>
           </ul>
         </article>
+      </div>
       </div>
     </section>
   )
