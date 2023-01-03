@@ -8,7 +8,7 @@ import {BsArrowRight} from 'react-icons/bs'
 function header() {
   return (
     <header>
-      <div className="conteiner header__conteiner">
+      <div className="container header__container">
         <h5>Olá, mundo! 👋</h5>
         <h1>Sou Wesley Azevedo.</h1>
         <h5 className="text-light">Fron-End Developer</h5>

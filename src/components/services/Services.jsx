@@ -4,10 +4,10 @@ import {BiCheck} from "react-icons/bi";
 
 function services() {
   return (
-    <section id='services'>
+    <section className='container' id='services'>
       <h5>Meus</h5>
       <h2>Serviços</h2>
-      <div className='conteiner services__conteiner'>
+      <div className='services__container'>
         <article className='services'>
           <div className='service__head'>
             <h3>UI/UX Desing</h3>

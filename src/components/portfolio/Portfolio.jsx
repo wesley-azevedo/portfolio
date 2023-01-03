@@ -1,5 +1,5 @@
 import React from 'react'
-import './portifolio.css'
+import './portfolio.css'
 import ImgPortfolio1 from '../../assets/portfolio1.jpg'
 import ImgPortfolio2 from '../../assets/portfolio2.jpg'
 import ImgPortfolio3 from '../../assets/portfolio3.jpg'
@@ -7,12 +7,12 @@ import ImgPortfolio4 from '../../assets/portfolio4.jpg'
 import ImgPortfolio5 from '../../assets/portfolio5.jpg'
 import ImgPortfolio6 from '../../assets/portfolio6.jpg'
 
-function portifolio() {
+function portfolio() {
   return (
     <section id='portifolio'>
       <h5>Meu</h5>
       <h2>Portifólio</h2>
-      <div className="conteiner portfolio__conteiner">
+      <div className="container portfolio__container">
         <article className="portfolio__item">
           <div>
             <img className="portfolio__item-image" src={ImgPortfolio1} alt="Imagem Portfólio"/>
@@ -78,4 +78,4 @@ function portifolio() {
   )
 }
 
-export default portifolio
+export default portfolio

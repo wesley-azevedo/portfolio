@@ -8,7 +8,7 @@ function experiences() {
       <h5>Minhas</h5>
       <h2>Experiências</h2>
 
-      <div className="conteiner experiences__conteiner">
+      <div className="container experiences__container">
         <div className="experiences__frontend">
           <h3>Frontend Development</h3>
           <div className='experience__content'>

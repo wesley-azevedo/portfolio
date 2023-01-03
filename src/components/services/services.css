@@ -1,4 +1,4 @@
-.services__conteiner {
+.services__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 1320px) {
-    .services__conteiner {
+    .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
@@ -65,7 +65,7 @@
 }
 
 @media screen and (max-width: 850px) {
-    .services__conteiner {
+    .services__container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
