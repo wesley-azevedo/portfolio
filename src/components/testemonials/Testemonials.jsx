@@ -71,8 +71,9 @@ function testemonials() {
             modules={[Navigation, Pagination]}
             spaceBetween={30}
             slidesPerView={1}
-       
-            pagination={{ clickable: true }}      >
+            navigation
+            pagination={{ clickable: true }}
+      >
       {
         data.map(({avatar, name__link, name, position, company__link, company, review}, index) => {
           return (
